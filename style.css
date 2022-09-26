@@ -35,6 +35,14 @@ h3 {
     position: relative;
     left: 300px;
 }
+@media (max-width:1028px) {
+    .top-cloud {
+        left:0px;
+    }
+    .mountain {
+    width: 450px;
+    }
+}
 .bottom-cloud {
     position: absolute;
 }
